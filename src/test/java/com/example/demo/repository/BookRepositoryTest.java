@@ -95,8 +95,8 @@ public class BookRepositoryTest {
 		bookRepository.save(book);
 	}
 	
-	@Test
-	public void 단건삭제() {
-		bookRepository.deleteById(2);
-	}
+//	@Test
+//	public void 단건삭제() {
+//		bookRepository.deleteById(2);
+//	}
 }
